@@ -32,7 +32,7 @@ public class ProductServicesTests
 
         //Assert
         Assert.True(tariffs.Count== 2);
-        Assert.Contains(tariffs, t => t.TariffName.ToLower().Contains("basic") && t.annualCosts == expectedBasicAnnualCosts);
-        Assert.Contains(tariffs, t => t.TariffName.ToLower().Contains("package") && t.annualCosts == expectedPackageAnnualCosts);
+        Assert.Contains(tariffs, t => t.IsBasicTariff() && t.annualCosts == expectedBasicAnnualCosts);
+        Assert.Contains(tariffs, t => t.IsPackageTariff() && t.annualCosts == expectedPackageAnnualCosts);
     }
 }

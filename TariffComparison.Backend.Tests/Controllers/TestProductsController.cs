@@ -27,8 +27,8 @@ namespace TariffComparison.Backend.Tests.Controllers
             Assert.NotNull(result);
             var tariffs = result.Value as IEnumerable<ProductDto>;
             Assert.NotNull(tariffs);
-            Assert.Contains(tariffs, t => t.TariffName.ToLower().Contains("basic") && t.annualCosts == expectedBasicAnnualCosts);
-            Assert.Contains(tariffs, t => t.TariffName.ToLower().Contains("package") && t.annualCosts == expectedPackageAnnualCosts);
+            Assert.Contains(tariffs, t => t.IsBasicTariff() && t.annualCosts == expectedBasicAnnualCosts);
+            Assert.Contains(tariffs, t => t.IsPackageTariff() && t.annualCosts == expectedPackageAnnualCosts);
 
         }
         [Fact]

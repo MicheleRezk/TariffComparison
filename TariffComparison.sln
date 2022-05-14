@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Backend", "TariffComparison.Backend\TariffComparison.Backend.csproj", "{299CCE68-89C0-4D24-8414-8D9BB3ACFC71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Backend", "TariffComparison.Backend\TariffComparison.Backend.csproj", "{299CCE68-89C0-4D24-8414-8D9BB3ACFC71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Backend.Tests", "TariffComparison.Backend.Tests\TariffComparison.Backend.Tests.csproj", "{0AD3BBC9-236D-436E-8E23-0BD9C4AF736D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Backend.Tests", "TariffComparison.Backend.Tests\TariffComparison.Backend.Tests.csproj", "{0AD3BBC9-236D-436E-8E23-0BD9C4AF736D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Backend.IntegrationTests", "TariffComparison.Backend.IntegrationTests\TariffComparison.Backend.IntegrationTests.csproj", "{5816E248-59F1-4D07-B124-B7A3247298C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0AD3BBC9-236D-436E-8E23-0BD9C4AF736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD3BBC9-236D-436E-8E23-0BD9C4AF736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD3BBC9-236D-436E-8E23-0BD9C4AF736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5816E248-59F1-4D07-B124-B7A3247298C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5816E248-59F1-4D07-B124-B7A3247298C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5816E248-59F1-4D07-B124-B7A3247298C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5816E248-59F1-4D07-B124-B7A3247298C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
