@@ -17,7 +17,7 @@ namespace TariffComparison.Backend.Controllers
 
         // GET api/products/4500
         [HttpGet("{consumptionPerYear}")]
-        public ActionResult<List<ProductDto>> GetByConsumptionPerYear(decimal consumptionPerYear)
+        public ActionResult<IEnumerable<ProductDto>> GetByConsumptionPerYear(decimal consumptionPerYear)
         {
             if (consumptionPerYear<0)
             {

@@ -45,13 +45,9 @@ namespace TariffComparison.Backend.Services
             foreach (var product in _products)
             {
                 var totalCosts = product.CalculationModel.CalculateAnnualCosts(consumptionPerYear);
-                tariffs.Add(new ProductDto( product.Name, ConvertToEuro(totalCosts))); 
+                tariffs.Add(new ProductDto( product.Name, Utility.ConvertToEuro(totalCosts))); 
             }
             return tariffs;
-        }
-        private string ConvertToEuro(decimal cents)
-        {
-            return String.Format("€ {0:0.00}", cents / 100);
         }
     }
 }
