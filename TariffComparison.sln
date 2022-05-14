@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Backend", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Backend.Tests", "TariffComparison.Backend.Tests\TariffComparison.Backend.Tests.csproj", "{0AD3BBC9-236D-436E-8E23-0BD9C4AF736D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TariffComparison.Backend.IntegrationTests", "TariffComparison.Backend.IntegrationTests\TariffComparison.Backend.IntegrationTests.csproj", "{5816E248-59F1-4D07-B124-B7A3247298C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TariffComparison.Backend.IntegrationTests", "TariffComparison.Backend.IntegrationTests\TariffComparison.Backend.IntegrationTests.csproj", "{5816E248-59F1-4D07-B124-B7A3247298C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
