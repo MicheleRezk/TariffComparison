@@ -35,3 +35,4 @@ contains the integration tests of the api services
 
 ### how to test it
 - docker-compose up
+Then you can hit the service on this url like: http://localhost:9090/api/Products/3500
